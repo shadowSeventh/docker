@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+# -*- coding: utf8 -*-
+
+import os
+import sys
+import logging
+from certbot_adc import CadcConf
+
+logging.basicConfig(
+    format='%(asctime)s:%(levelname)s:%(name)s:%(message)s',
+    # filename='/tmp/example.log',
+    stream=sys.stdout,
+    level=logging.DEBUG
+)
+logger = logging.getLogger("certbot_adc.certbot-adc-check-conf")
+
+cadc_conf = CadcConf.CadcConf()
