@@ -11,6 +11,6 @@ RUN set -ex; \
         rm -rf leanote-all-master master.zip; \
         apt-get purge -y --auto-remove wget unzip
 
-COPY "../start.sh" "/root/start-db.sh"
+COPY "start.sh" "/root/start-db.sh"
 
 CMD ["/root/start-db.sh"]
