@@ -1,4 +1,5 @@
 FROM golang:1.11.2-alpine
+MAINTAINER lt
 
 # golang:alpine :
 # ENV GOPATH /go
