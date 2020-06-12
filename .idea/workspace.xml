@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705f1e22-8e84-496a-9272-9b3b96d07008" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rancher/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/rancher/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,7 +153,7 @@
       <workItem from="1514527274926" duration="7704000" />
       <workItem from="1515156370061" duration="1851000" />
       <workItem from="1515231501358" duration="1594000" />
-      <workItem from="1591943016984" duration="1349000" />
+      <workItem from="1591943016984" duration="1871000" />
     </task>
     <servers />
   </component>

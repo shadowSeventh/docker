@@ -1,0 +1,23 @@
+FROM rancher/rancher-agent:v2.4.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,1 +1,23 @@
 FROM rancher/rancher:stable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
