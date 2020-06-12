@@ -1,1 +1,1 @@
-FROM rancher/rancher:latest
+FROM rancher/server:stable
