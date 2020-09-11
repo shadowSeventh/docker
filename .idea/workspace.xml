@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="705f1e22-8e84-496a-9272-9b3b96d07008" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/rancher/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/rancher/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis2/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/redis2/run.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +18,6 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="23" />
-    <option name="width" value="1626" />
-    <option name="height" value="1027" />
   </component>
   <component name="ProjectId" id="1dCxjmzVaRNgJLFPD9SJPOS1w0u" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -72,10 +67,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rancher" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,33 +92,6 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -139,6 +112,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mysql" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="v0.0.1" />
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="mysql/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.mysql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -154,6 +156,9 @@
       <workItem from="1515156370061" duration="1851000" />
       <workItem from="1515231501358" duration="1594000" />
       <workItem from="1591943016984" duration="1871000" />
+      <workItem from="1591968703007" duration="2176000" />
+      <workItem from="1599818772444" duration="2873000" />
+      <workItem from="1599831609284" duration="2072000" />
     </task>
     <servers />
   </component>
@@ -163,19 +168,46 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="Dockerfile" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="880" y="396" key="#Docker" timestamp="1591969146141">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="880" y="396" key="#Docker/0.23.2560.1417@0.23.2560.1417" timestamp="1591969146141" />
+    <state x="1115" y="564" key="#Docker_Registry2" timestamp="1591970055948">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1115" y="564" key="#Docker_Registry2/0.23.2560.1417@0.23.2560.1417" timestamp="1591970055948" />
+    <state x="1115" y="564" key="#Docker_Registry3" timestamp="1591970088470">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1115" y="564" key="#Docker_Registry3/0.23.2560.1417@0.23.2560.1417" timestamp="1591970088470" />
+    <state x="1115" y="564" key="#Docker_Registry4" timestamp="1591970101223">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1115" y="564" key="#Docker_Registry4/0.23.2560.1417@0.23.2560.1417" timestamp="1591970101223" />
+    <state x="1165" y="601" key="#Notifications" timestamp="1591969585743">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1165" y="601" key="#Notifications/0.23.2560.1417@0.23.2560.1417" timestamp="1591969585743" />
+    <state x="1080" y="633" key="#Push_Image" timestamp="1591970231922">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1080" y="633" key="#Push_Image/0.23.2560.1417@0.23.2560.1417" timestamp="1591970231922" />
+    <state x="977" y="289" key="#mysql" timestamp="1591970080002">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="977" y="289" key="#mysql/0.23.2560.1417@0.23.2560.1417" timestamp="1591970080002" />
+    <state x="977" y="289" key="#mysql/Dockerfile" timestamp="1591969219599">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="977" y="289" key="#mysql/Dockerfile/0.23.2560.1417@0.23.2560.1417" timestamp="1591969219599" />
+    <state x="768" y="313" key="SettingsEditor" timestamp="1591970292659">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="768" y="313" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1591970292659" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1599823211472">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1599823211472" />
   </component>
 </project>
